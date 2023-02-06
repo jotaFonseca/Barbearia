@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    background-color: rgb(202, 202, 202);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 20px;
+    transition: 0.4s;
+}
+nav a:hover{
+    color: rgb(230, 149, 44);
+    text-decoration: underline;
+}
+main{
+    padding: 200px 0;
+}
+.produtos{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.list{
+    text-align: center;
+    border: 2px solid black;
+    width: 300px;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+.text{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.price{
+    font-size: 25px;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    background: rgb(0, 0, 0);
+    padding: 40px 0;
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px 0;
+}
